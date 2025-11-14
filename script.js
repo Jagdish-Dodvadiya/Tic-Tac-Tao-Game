@@ -18,17 +18,17 @@ if (!box) {
 let mode = "light"; // fixed typo and initialize properly
 if (btn && body) {
     // set initial button text based on mode
-    btn.innerText = mode === 'light' ? 'Dark Mode' : 'Light Mode';
+    // btn.innerText = mode === 'light' ? 'Dark Mode' : 'Light Mode';
     btn.addEventListener('click', () => {
         if (mode === "light") {
             body.classList.add("darkmode");
             body.classList.remove("lightmode");
-            btn.innerText = "Light Mode";
+            btn.innerText = "Mode";
             mode = "dark";
         } else {
             body.classList.add("lightmode");
             body.classList.remove("darkmode");
-            btn.innerText = "Dark Mode";
+            btn.innerText = "Mode";
             mode = "light";
         }
     });
