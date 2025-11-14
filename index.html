@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tik Tak Tao</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="shortcut icon" href="./tic-tac-toe.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <header>
+        <h1>Tik Tak Tao Game !</h1>
+    </header>
+
+    <main>
+
+        <section class="result" id="home">
+            <h2 style="display: none;" id="Winner">Winner is : </h2>
+            <h2 style="display: none;" id="tie">It's a Draw, pls Reset the Game</h2>
+            <h2 id="tagline">Are you Excited For Play the Game !</h2>
+
+            <article>
+                <a href="#Container">Start the Game!</a>
+                <a href="#Container" id="newGame">New Game!</a>
+                <button id="mode">Mode</button>
+            </article>
+        </section>
+
+        <!-- Now you should to create a div Container which is Contains Buttons -->
+
+        <section class="Game">
+            <article>
+                <h3>Enjoy The Game!</h3>
+            </article>
+
+            <article class="btns" id="Container">
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </article>
+
+            <article class="reset-btn">
+                <button class="reset">Reset Game!</button>
+            </article>
+        </section>
+
+    </main>
+
+    <script src='script.js'></script>
+</body>
+
+</html>
